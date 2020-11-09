@@ -1,0 +1,13 @@
+<h1>Longest Word Game - Page Score</h1>
+
+<div>
+  <%= @word %>
+  <%= @letters_pass %>
+  <!-- @letters n'est pas accessible, utiliser hidden_field_tag
+    <%= @letters %>
+   -->
+</div>
+
+<div>
+  <%= link_to "Play again", new_path %>
+</div>
